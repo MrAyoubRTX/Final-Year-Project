@@ -34,6 +34,7 @@ const TodoList = () => {
           />
         </PopoverContent>
       </Popover>
+
       {/* LIST */}
       <ScrollArea className="max-h-400px mt-4 overflow-y-auto">
         <div className="flex flex-col gap-4">
@@ -156,6 +157,7 @@ const TodoList = () => {
           </Card>
         </div>
       </ScrollArea>
+      
     </div>
   );
 };
